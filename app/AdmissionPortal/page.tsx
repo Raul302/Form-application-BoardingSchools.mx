@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import styles from './admissionPortal.module.css';
 import Image from 'next/image';
 
@@ -29,6 +30,25 @@ const LoginPage = () => {
             <label className={styles.labelText}> password </label>
             <input className={styles.inputText} placeholder="******"/>
         
+          </div>
+
+          {/* Button Login */}
+          <div className={styles.buttonBox}>
+            <button className={styles.buttonLogin}>Log In</button>
+          </div>
+
+          <div className={styles.footerBox}>
+          <p>
+
+          <Link href="https://boardingschools.mx/" passHref={true} target="_blank">
+          Boarding Schools MX © 2023  &nbsp;
+          </Link>
+          • &nbsp;
+          <Link href="https://boardingschools.mx/aviso-de-privacidad/" passHref={true} target="_blank">
+          Privacy Policy  &nbsp;
+          </Link>
+           
+          </p>
           </div>
         </div>
 
