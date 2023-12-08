@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+  }
+  
+  .bannerArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.logoBanner{
+  margin-top: 30px;
+
+}
+
+  .banner {
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    margin-top: -480px;
+    height: 150px;
+    width: 150px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -1px -63px 44px -57px rgba(0,0,0,0.41);
+    -moz-box-shadow: -1px -63px 44px -57px rgba(0,0,0,0.41);
+    box-shadow: -1px -63px 44px -57px rgba(0,0,0,0.41);
+  }
+  
+  .workArea {
+    position: relative;
+    /* top: 50%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 7%;
+    height: 412px;
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 5px 25px 5px rgba(0,0,0,0.4);
+  
+  }
+
+  .content{
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  .title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.728em;
+   color:#395a8b;
+   font-family: 'SourceSansPro', sans-serif;
+   margin-bottom: 2%;
+  }
+
+  .formLogin {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  .labelText {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    line-height: 2.4;
+    letter-spacing: 0.3px;
+    color :#999;
+  }
+  .inputText {
+    display: block;
+    display: block;
+    font-size: 1.10em;
+    padding: 8px;
+    border: 1px solid #BBBBBB;
+    border-radius: 2px;
+    width: 100%;
+    transition: box-shadow 0.2s ease-out, border 0.2s ;
+    width: 100%;
+  }
+
+  .inputText:focus,.inputText:active{
+    border: 1px solid blue;
+    outline:none;
+  }
